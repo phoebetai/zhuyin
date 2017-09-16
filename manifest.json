@@ -1,0 +1,24 @@
+{
+	"manifest_version" : 2,
+
+	"name": "Zhuyin",
+	"description": "Insert description here.",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"css": ["zhuyin.css"],
+			"js": ["zhuyin.js"],
+		}
+	],
+
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "Zhuyin",
+	},
+
+	"permissions": [
+		"tabs"
+	]
+}
