@@ -1,24 +1,18 @@
 {
-	"manifest_version" : 2,
+	"manifest_version": 2,
 
 	"name": "Zhuyin",
-	"description": "Insert description here.",
+	"description": "Adds zhuyin fuhao next to Chinese characters.",
 	"version": "1.0",
+
+	"browser_action": {
+		"default_title": "Add zhuyin!"
+	},
 
 	"content_scripts": [
 		{
 			"matches": ["*://*/*"],
-			"css": ["zhuyin.css"],
-			"js": ["zhuyin.js"],
+			"css": ["zhuyin.css"]
 		}
-	],
-
-	"page_action": {
-		"default_icon": "icon.png",
-		"default_title": "Zhuyin",
-	},
-
-	"permissions": [
-		"tabs"
 	]
 }

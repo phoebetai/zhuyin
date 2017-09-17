@@ -1,0 +1,8 @@
+@font-face {
+	font-family: HanWangKaiMediumChuIn;
+	src: url(wp010-08.ttf);
+}
+
+* {
+	font-family: HanWangKaiMediumChuIn;
+}
