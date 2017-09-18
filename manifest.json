@@ -1,7 +1,7 @@
 {
 	"name": "Zhuyin",
 	"description": "Adds zhuyin fuhao next to Chinese characters.",
-	"version": "1.2",
+	"version": "1.3",
 
 	"permissions": [
 		"activeTab"
@@ -13,7 +13,7 @@
 	},
 
 	"browser_action": {
-		"default_title": "Add zhuyin"
+		"default_title": "Zhuyin"
 	},
 
 	"manifest_version": 2
