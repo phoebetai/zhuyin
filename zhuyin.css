@@ -1,8 +1,8 @@
 @font-face {
-	font-family: HanWangKaiMediumChuIn;
-	src: url('chrome-extension://__MSG_@@extension_id__/wp010-08.ttf');
+	font-family: HanWangMingMediumChuIn;
+	src: url('chrome-extension://__MSG_@@extension_id__/wp010-05.ttf');
 }
 
 * {
-	font-family: HanWangKaiMediumChuIn !important;
+	font-family: HanWangMingMediumChuIn !important;
 }

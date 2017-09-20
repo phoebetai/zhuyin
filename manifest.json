@@ -1,9 +1,10 @@
 {
 
 	"manifest_version": 2,
+	
 	"name": "Zhuyin",
-	"description": "Adds zhuyin fuhao next to Chinese characters.",
-	"version": "2.0",
+	"description": "Add zhuyin fuhao next to Chinese characters.",
+	"version": "3.1",
 
 	"background": {
 		"scripts": ["zhuyin.js"],
@@ -11,6 +12,7 @@
 	},
 
 	"browser_action": {
+		"default_icon": "icon.png",
 		"default_title": "Zhuyin"
 	},
 
@@ -19,7 +21,7 @@
 	],
 
 	"web_accessible_resources": [
-		"wp010-08.ttf"
+		"wp010-05.ttf"
 	]
 
 }
